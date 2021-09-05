@@ -81,7 +81,7 @@ bool CCharacter::Spawn(CPlayer *pPlayer, vec2 Pos)
 	m_Grenades = 2;
 	m_ClassAbilityTimer = 0;
 
-	m_GodMode = false;
+	m_GodMode = true;
 	
 	m_CryTimer = 0;
 	m_CryState = 0;
